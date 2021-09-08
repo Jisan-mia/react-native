@@ -13,3 +13,17 @@
 - Flebox
 - Icons in RN
 - A Todo App
+  - One can add a todo
+  - Delete a todo
+  - Validated empty todo
+- Review app
+  - Home
+  - Review Details
+  - About
+  - Modal (a form to add a review)
+  - Navigation Drawer to navigate between pages
+  - More
+    - Custom Fonts
+    - Global Styles
+    - React Navigation (Stack-navigator)
+      - 

@@ -1,17 +1,25 @@
+
+import { useFonts } from 'expo-font';
 import React from 'react';
-import { StyleSheet } from "react-native";
-import TodoApp from './component/TodoApp';
+import { } from 'react-native';
+import ReviewApp from './component/ReviewApp/ReviewApp';
+// import TodoApp from './component/TodoApp/TodoApp';
+
+const getFont = () => Font.loadAsync({
+ 
+})
 
 export default function App() {
+  const [loaded] = useFonts({
+    'nunito-rgular': require('./assets/fonts/Nunito-Regular.ttf'),
+    'nunito-bold': require('./assets/fonts/Nunito-Bold.ttf'),
+  });
 
-
+  if(!loaded) {
+    return null
+  }
+  
   return (
-    
-      <TodoApp />
-    
+      <ReviewApp />
   );
 }
-
-const styles = StyleSheet.create({
-  
-});

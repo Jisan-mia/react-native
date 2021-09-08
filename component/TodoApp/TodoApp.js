@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Alert, FlatList, Keyboard, StyleSheet, TouchableWithoutFeedback, View } from "react-native";
-import Header from "./Header";
+import Header from "../Header";
 import InputTodo from "./InputTodo";
 import TodoItem from "./TodoItem";
 
