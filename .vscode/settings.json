@@ -1,0 +1,65 @@
+{
+  // Theme
+  "workbench.colorTheme": "Dracula",
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "javascript.validate.enable": false, //disable all built-in syntax checking
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
+
+// {
+//   //Prettier rules
+//   "prettier.arrowParens": "always",
+//   "prettier.bracketSpacing": true,
+//   "prettier.embeddedLanguageFormatting": "auto",
+//   "prettier.htmlWhitespaceSensitivity": "css",
+//   "prettier.quoteProps": "as-needed",
+//   "prettier.semi": true,
+//   "prettier.trailingComma": "es5",
+//   "prettier.insertPragma": false,
+//   "prettier.useTabs": true,
+//   "prettier.requireConfig": true, // Allows VSCode to use prettier config file when available in your working directory.
+//   "prettier.singleQuote": true,
+//   "prettier.jsxSingleQuote": true,
+//   "prettier.printWidth": 80,
+//   "prettier.tabWidth": 2,
+//   // ESLint Config
+//   "eslint.packageManager": "yarn",
+//   "eslint.alwaysShowStatus": true,
+//   "eslint.debug": true,
+//   "eslint.run": "onType", // Allows linting while you type.
+//   "eslint.options": {
+//     "configFile": ".eslintrc.json" //Allows VSCode to use ESlint config in your working directory.
+//   },
+//     "eslint.quiet": false,
+//   "diffEditor.ignoreTrimWhitespace": false,
+//   "editor.formatOnSave": true,
+//   "[javascript]": {
+//     "editor.formatOnSave": true,
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "[javascriptreact]": {
+//     "editor.formatOnSave": true,
+//     "editor.defaultFormatter": null
+//   }
+// }
