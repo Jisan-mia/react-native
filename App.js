@@ -2,7 +2,7 @@
 import { useFonts } from 'expo-font';
 import React from 'react';
 import { } from 'react-native';
-import ReviewApp from './component/ReviewApp/ReviewApp';
+import Login from './component/Login/Login';
 // import TodoApp from './component/TodoApp/TodoApp';
 
 const getFont = () => Font.loadAsync({
@@ -20,6 +20,6 @@ export default function App() {
   }
   
   return (
-      <ReviewApp />
+    <Login />
   );
 }

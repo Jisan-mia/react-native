@@ -33,7 +33,7 @@ const HomeStack =() => {
   return (
        <Stack.Navigator 
         screenOptions={{
-          headerShown: false
+          // headerShown: false
         }}
         >
           <Stack.Screen name="Home" component={Home}   options={{ headerShown: false }}/>

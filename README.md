@@ -26,4 +26,7 @@
     - Custom Fonts
     - Global Styles
     - React Navigation (Stack-navigator)
-      - 
+    - Drawer
+- Login and SignUp ui
+  - There are two stack, LoginScree, SignUpScreen
+  - LoginScreen itself is a Stack which has LoginScreen, ForgotPass, VerificationCode
